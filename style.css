@@ -172,6 +172,57 @@ font-weight: 260;
 
 /* header part end */
 
+/* cng-habit start */
+
+.cng-habit{
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.cng-habit h1{
+    color: rgb(255, 255, 255);
+     font-size: 2.4rem;
+     font-weight: 600;
+}
+.cng-habit p{
+    color: rgba(255, 255, 255, 0.5);
+     font-size: 0.9rem;
+    font-weight: 200;
+}
+.cng-habit-photo-container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.cng-habit-photo-content{
+    max-width: 200px;
+}
+
+.cng-habit-photo-content img{
+    border-radius: 50%;
+    
+}
+.cng-habit-photo-content h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.cng-habit-photo-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 250;
+}
+
+
+ 
+/* cng-habit end  */
+
 
 
 
