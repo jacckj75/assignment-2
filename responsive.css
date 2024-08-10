@@ -42,10 +42,29 @@
     /* cng habit part start  */
     .cng-habit-photo-container{
         grid-template-columns: repeat(1,1fr);
-        padding-left: 150px;
+        padding-left: 110px;
     }
 
     /* cng habit part end   */
+
+    /* run extra part start  */
+     
+    .run-extra-container{
+        flex-direction: column;
+    } 
+    .run-extra-content, .run-extra-image{
+        width: 100%;
+    }
+    .run-extra-content{
+        padding-right: 30px;
+    }
+    .run-extra-content button{
+        padding: 13px 139px;
+        /* margin-left: 10px; */
+    }
+    
+
+    /* run extra part end  */
 }
 
 /* medium device */
@@ -84,7 +103,7 @@
         /* cng habit part start  */
         .cng-habit-photo-container{
             grid-template-columns: repeat(2,1fr);
-            padding-left: 30px;
+            padding-left: 50px;
         }
        
        
