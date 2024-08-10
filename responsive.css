@@ -65,6 +65,31 @@
     
 
     /* run extra part end  */
+    /* bmi part start  */
+    
+    .bmi-calculator-container{
+        flex-direction: column;
+    }
+    .bmi-calculator-header{
+        margin-left: 20px;
+    }
+
+         .bmi-calculator{
+           padding-top: 0px;
+         }
+    .bmi-chart{
+        padding-bottom: 0px;
+    }
+    /* bmi part end  */
+
+    /* meet our team start  */
+
+    .meet-our-team-photo-container{
+        grid-template-columns: repeat(1,1fr);
+        margin
+    }
+
+    /* meet our team end  */
 }
 
 /* medium device */
@@ -108,5 +133,20 @@
        
        
         /* cng habit part end  */
+       /* bmi part start  */
+    
+    .bmi-calculator-container{
+        flex-direction: column;
+    }
+    .bmi-calculator-header{
+        margin-left: 20px;
+    }
 
+         .bmi-calculator{
+           padding-top: 0px;
+         }
+    .bmi-chart{
+        padding-bottom: 0px;
+    }
+    /* bmi part end  */
 }

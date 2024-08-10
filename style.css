@@ -92,7 +92,7 @@ body{
 .body-shape-btn2{
     padding: 13px 40px;
     border-radius: 35px;
-    background: rgb(17, 17,17);
+    background: rgba(17, 17, 17, 0);
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -264,7 +264,7 @@ font-weight: 260;
 
 .run-extra-image{
     width: 40%;
-    padding: 20px 20px;
+    padding: 20px 20px; 
 }
 .run-extra-image img{
     width: 100%;
@@ -277,9 +277,254 @@ font-weight: 260;
 
 /* run extra part end  */
 
+/* training and exercise part start  */
+.training-exercise-content{
+    max-width: 900px;
+    margin: 50px auto;
 
+}
+.training-exercise-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.training-exercise-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+   font-weight: 200; 
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+.training-exercise-image{
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    border: 2px solid red;
+}
+.training-exercise-image1{
+    background:  rgba(6, 255, 210, 0.5), url(asset/exercise1.jpg);
+    grid-column: 1/span 2;
+    grid-row: 1/span 6;
+}
+.training-exercise-image2{
+    background:  url(asset/exercise2.png);
 
+}
+.training-exercise-image3{
+    background: rgba(6, 255, 210, 0.5),url(./asset/exercise3.png);
+}
+.training-exercise-image4{
+    background: rgba(6, 255, 210, 0.5),url(./asset/exercise4.png);
+}
+.training-exercise-image5{
+    background: rgba(6, 255, 210, 0.5),url(./asset/exercise5.jpg);
+}
+.training-exercise-image6{
+    background: rgba(6, 255, 210, 0.5),url(./asset/exercise6.jpg);
+}
+/* training and exercise part end  */
+/* bmi part start  */
 
+.bmi-calculator-header{
+    max-width: 600px;
+    margin: 50px auto;
+    
+}
+.bmi-calculator-header h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.bmi-calculator-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+   font-weight: 200; 
+   margin-top: 10px;
+}
+
+.bmi-calculator-container{
+    display: flex;
+    justify-content:center;
+    background-color:rgb(34, 34, 34);
+    gap: 40px;
+}
+.bmi-chart{
+    padding: 50px ;
+}
+.bmi-calculator{
+    padding: 50px ;
+}
+.bmi-chart h4, .bmi-calculator h4{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.bmi-calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.bmi-chart th{
+    color: rgb(255, 255, 255);
+     font-size: 0.9rem;
+      font-weight: 300;
+      padding: 8px;
+}
+.bmi-chart td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 8px;
+}
+.bmi-select-option-container{
+    gap: 10px;
+}
+.heigh-weight-container> input  {
+    border-radius: 8px;
+     background: rgba(255, 255, 255, 0.1);
+     padding: 12px 10px;
+     border: none;
+}
+.age-sex-container>input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 10px;
+    margin-top: 10px;
+    border: none;
+    }
+    .age-sex-container>select{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 12px 57px;
+        margin-top: 10px;
+        border: none;
+        }   
+ .big-select-option>select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 105px;
+    margin-top: 10px;
+    border: none;
+ }   
+ .bmi-select-option-container>button{
+    padding: 13px 40px;
+    border-radius: 35px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+ }
+/* bmi part end  */
+
+/* meet our team part start  */
+
+.meet-our-team-header{
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+}
+.meet-our-team-header h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.meet-our-team-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-top: 10px;
+
+}
+.meet-our-team-photo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 900px;
+    margin: 0px auto;
+    border-radius: 13px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    gap: 15px;
+}
+.meet-our-team-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.trainer-name{
+      position: relative;
+      top: -40px;
+      right: -15px;
+}
+.trainer-name h5 {
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.trainer-name p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.5rem;
+    font-weight: 200;
+}
+
+/* meet our team part end  */
+
+/* fitness part start  */
+footer{
+    background: rgba(255, 255, 255, 0.039);
+}
+.fitness-container{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+    gap: 90px;
+}
+.fitness-header h1{
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+     font-weight: 700;
+     margin: 15px 0;
+}
+.fitness-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.5rem;
+    font-weight: 200;
+}
+.fitness-main h3 , .fitness-footer h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 12px 0;
+}
+.fitness-main>ol, .fitness-footer>ol{
+    
+}
+.fitness-main>ul, .fitness-footer>ul{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+    
+}
+.horizental-zone{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.horizetal-content {
+    background: rgba(255, 255, 255, 0.1);
+}
+.horizental-zone p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    font-weight: 250;
+    text-align: center;
+}
 
 
 
