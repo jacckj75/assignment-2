@@ -79,9 +79,10 @@
 
          .bmi-calculator{
            padding-top: 0px;
+           padding-left: 20px;
          }
     .bmi-chart{
-        padding-bottom: 0px;
+        padding: 20px;
     }
     .bmi-select-option-container>button{
         padding: 15px 80px;

@@ -385,27 +385,27 @@ font-weight: 260;
 .heigh-weight-container> input  {
     border-radius: 8px;
      background: rgba(255, 255, 255, 0.1);
-     padding: 12px 10px;
+     padding: 12px 3px;
      border: none;
 }
 .age-sex-container>input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 10px;
+    padding: 12px 3px;
     margin-top: 10px;
     border: none;
     }
     .age-sex-container>select{
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
-        padding: 12px 57px;
+        padding: 12px 50px;
         margin-top: 10px;
         border: none;
         }   
  .big-select-option>select{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 105px;
+    padding: 12px 90px;
     margin-top: 10px;
     border: none;
  }   
