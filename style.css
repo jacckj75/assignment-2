@@ -385,13 +385,13 @@ font-weight: 260;
 .heigh-weight-container> input  {
     border-radius: 8px;
      background: rgba(255, 255, 255, 0.1);
-     padding: 12px 3px;
+     padding: 12px 1px;
      border: none;
 }
 .age-sex-container>input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 3px;
+    padding: 12px 1px;
     margin-top: 10px;
     border: none;
     }
@@ -464,8 +464,8 @@ font-weight: 260;
 }
 .trainer-name h5 {
     color: rgb(255, 255, 255);
-    font-size: 0.8rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 450;
 }
 .trainer-name p {
     color: rgba(255, 255, 255, 0.5);
