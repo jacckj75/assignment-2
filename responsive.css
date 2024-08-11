@@ -66,6 +66,9 @@
 
     /* run extra part end  */
     /* bmi part start  */
+    .bmi-calculator-header{
+        margin: 20px auto;
+    }
     
     .bmi-calculator-container{
         flex-direction: column;
@@ -80,6 +83,9 @@
     .bmi-chart{
         padding-bottom: 0px;
     }
+    .bmi-select-option-container>button{
+        padding: 15px 80px;
+    }
     /* bmi part end  */
 
     /* meet our team start  */
@@ -88,9 +94,23 @@
         grid-template-columns: repeat(1,1fr);
         margin
     }
+    .display-none{
+        display: none;
+    }
 
     /* meet our team end  */
+
+    /* fitness footer start  */
+
+    .fitness-container{
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 10px;
+    }
+
+    /* fitness footer end  */
 }
+
 
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -149,4 +169,8 @@
         padding-bottom: 0px;
     }
     /* bmi part end  */
+    .fitness-container{
+        flex-wrap: wrap;
+    }
+
 }

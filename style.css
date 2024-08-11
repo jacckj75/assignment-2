@@ -473,6 +473,7 @@ font-weight: 260;
     font-weight: 200;
 }
 
+
 /* meet our team part end  */
 
 /* fitness part start  */
@@ -481,6 +482,7 @@ footer{
 }
 .fitness-container{
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding: 48px 0px;
     gap: 90px;
@@ -493,8 +495,8 @@ footer{
 }
 .fitness-header p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.5rem;
-    font-weight: 200;
+    font-size: 0.7rem;
+    font-weight: 250;
 }
 .fitness-main h3 , .fitness-footer h3{
     color: rgb(255, 255, 255);
@@ -502,18 +504,18 @@ footer{
     font-weight: 400;
     margin: 12px 0;
 }
-.fitness-main>ol, .fitness-footer>ol{
-    
+.fitness-main>ul>li, .fitness-footer>ul>li{
+    list-style: none;
 }
 .fitness-main>ul, .fitness-footer>ul{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 300;
     
-    
 }
 .horizental-zone{
     max-width: 900px;
+    height: 100px;
     margin: 0 auto;
 }
 .horizetal-content {
@@ -524,6 +526,7 @@ footer{
     font-size: 1.1rem;
     font-weight: 250;
     text-align: center;
+    margin-top: 40px;
 }
 
 
