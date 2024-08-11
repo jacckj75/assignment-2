@@ -42,7 +42,7 @@
     /* cng habit part start  */
     .cng-habit-photo-container{
         grid-template-columns: repeat(1,1fr);
-        padding-left: 110px;
+        padding-left: 105px;
     }
 
     /* cng habit part end   */
@@ -84,7 +84,12 @@
     .bmi-chart{
         padding: 20px;
     }
-    
+    .bmi-chart{
+        width: 100%;
+    }
+    .bmi-calculator{
+        width: 100%;   
+    }
     /* bmi part end  */
 
     /* meet our team start  */
