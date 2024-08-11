@@ -381,6 +381,9 @@ font-weight: 260;
 }
 .bmi-select-option-container{
     gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: max-content;
 }
 .heigh-weight-container> input  {
     border-radius: 8px;
@@ -398,14 +401,14 @@ font-weight: 260;
     .age-sex-container>select{
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.1);
-        padding: 12px 50px;
+        padding: 12px 48px;
         margin-top: 10px;
         border: none;
         }   
  .big-select-option>select{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 90px;
+    padding: 12px 86px;
     margin-top: 10px;
     border: none;
  }   
