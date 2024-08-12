@@ -17,7 +17,7 @@
     
    }
    .body-shape-content{
-    padding-left: 8px;
+    padding-left: 15px;
     }
     .body-shape-btn-container{
         width: 340px;
@@ -42,7 +42,7 @@
     /* cng habit part start  */
     .cng-habit-photo-container{
         grid-template-columns: repeat(1,1fr);
-        padding-left: 105px;
+        padding-left: 100px;
     }
 
     /* cng habit part end   */
@@ -101,6 +101,9 @@
     .display-none{
         display: none;
     }
+    .order-1{order: 1;}
+    .order-2{order: 2;}
+    .order-3{order: 3;}
 
     /* meet our team end  */
 
