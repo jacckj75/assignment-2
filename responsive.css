@@ -96,7 +96,7 @@
 
     .meet-our-team-photo-container{
         grid-template-columns: repeat(1,1fr);
-        margin
+        width: 80%;
     }
     .display-none{
         display: none;
@@ -106,6 +106,22 @@
     .order-3{order: 3;}
 
     /* meet our team end  */
+    /* our trainng optiona part start  */
+
+    .training-part-container{
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+    }
+    .training-part-content{
+        width: 80%;
+
+    }
+    /* our training optioal part end  */
+
+    .information-form{
+        flex-direction: column;
+    }
 
     /* fitness footer start  */
 
